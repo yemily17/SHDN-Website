@@ -68,3 +68,21 @@ p {
   font-size: 30px;
   font-family: 'Brush Script MT', cursive;
 }
+.footer {
+  position: relative;
+  float:left;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(113, 243, 141);
+  color: white;
+  text-align: center;
+}
+.moreinfo p{
+  float:left;
+/* display:inline-block; */
+}
+.moreinfo img{
+  float:right;
+  /* display:inline-block; */
+}
