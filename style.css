@@ -1,0 +1,70 @@
+.header{
+  background-color:rgb(113, 243, 141);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+body {
+    background-color: lightyellow;
+  }
+h1 { /*welcome to shdn*/
+  color: lightcoral;
+  text-align: center;
+  font-size: 50px;
+  font-family: verdana;
+}
+  
+
+/* Add a green background color to the top navigation */
+.topnav {
+  background-color:rgb(113, 243, 141);
+  overflow: hidden;
+   display: inline-block;
+  /* list-style-type: none;  */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: verdana;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightcoral;
+  color: rgb(113, 243, 141);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+p {
+  font-family: verdana;
+  font-size: 15px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.intro{
+  font-size: 30px;
+  font-family: 'Brush Script MT', cursive;
+}
