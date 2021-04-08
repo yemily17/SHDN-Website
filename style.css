@@ -1,24 +1,21 @@
 .header{
   background-color:rgb(113, 243, 141);
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 102px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 body {
     background-color: lightyellow;
+    margin-top: 60px;
   }
 h1 { /*welcome to shdn*/
-  color: lightcoral;
+  color: rgb(29, 94, 40);
   text-align: center;
-  font-size: 50px;
+  font-size: 80px;
   font-family: verdana;
+  margin-top: 60px;
+  margin: 0;
+  padding: 0;
 }
   
 
@@ -30,6 +27,7 @@ h1 { /*welcome to shdn*/
   /* list-style-type: none;  */
   margin: 0;
   padding: 0;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -56,7 +54,8 @@ h1 { /*welcome to shdn*/
 }
 p {
   font-family: verdana;
-  font-size: 15px;
+  font-size: 20px;
+  padding: 20px 40px;
 }
 .center {
   display: block;
@@ -78,11 +77,7 @@ p {
   color: white;
   text-align: center;
 }
-.moreinfo p{
-  float:left;
-/* display:inline-block; */
-}
-.moreinfo img{
-  float:right;
-  /* display:inline-block; */
+.moreinfo {
+  font-family: verdana;
+  font-size: 20px;
 }
